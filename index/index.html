@@ -1,0 +1,75 @@
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>TemanMu Course - Bimbel Offline dan Online</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="style.css"/>
+	</head>
+	<body>
+		<header>
+			<div class="logo">
+				<h2 class="logo-title" ><a href="../index/index.html">TemanMu</a></h2>
+			</div>
+			
+			<nav>
+				<ul>
+					<li><a href="../list/index.html">Daftar Harga</a></li>
+					<li><a href="../contact/index.html">Contact Us</a></li>
+				</ul>
+			</nav>
+			<!-- <button class="btn-cta" onclick="redirInstagram()">Follow Saya</button> --> 
+		</header>
+		<div class="container">
+			<div class="intro">
+				<p class="title">Hi, Teman!</p>
+				<p class="description">Welcome to TemanMu Course.</p>
+				<img src="assets/foto/1.jpg" alt="dea afrizal foto 1" class="img-foto"/>
+			</div>
+		</div>
+		<div class="parallax">
+			<div class="tentang">
+				<p class="title">Kami datang membantu,</p>
+				<p class="description">Pesan sekarang juga!</p>
+				<div class="mt-10">
+					<button class="btn-cta" onclick="redirWhatsapp()">Klik disini.</button>
+				</div>
+			</div>
+			<div class="container">
+					<div class="card" id="jasa">
+						<div class="card-item">
+							<img src="assets/icon/24-hours.png" alt="icon 1" class="icon"/>
+							<p class="card-title">Konsultasi Nonstop</p>
+							<p class="card-description">Konsultasi tugas ketika kamu membutuhkan bantuan.</p>
+						</div>
+						<div class="card-item">
+							<img src="assets/icon/best-price.png" alt="icon 2"  class="icon"/>
+							<p class="card-title">Jasa Paling Murah</p>
+							<p class="card-description">Biaya jasa yang kami berikan pasti murah dan terjamin.</p>
+						</div>
+						<div class="card-item">
+							<img src="assets/icon/rating.png" alt="icon 3"  class="icon"/>
+							<p class="card-title">684 Review</p>
+							<p class="card-description">Mereka senang dalam bekerjasama dengan kami.</p>
+						</div>
+					</div>
+			</div>
+		</div>
+		<footer>
+			<h5>© TemanMu Course by Kelompok 3</h5>
+		</footer>
+		
+		<script>
+			function redirInstagram() {
+				window.location.href = "https://instagram.com/temanmu_course"
+			}
+			
+			function redirWhatsapp() {
+				window.location.href = "https://wa.me/+628192389292"
+			}
+		</script>
+	</body>
+</html>
